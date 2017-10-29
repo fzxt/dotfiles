@@ -9,3 +9,14 @@ export GOPATH="/Users/fzxt/Code/Go/"
 export GREP_OPTIONS="--color"
 set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 rvm default
+
+function start_tmux
+    if type tmux > /dev/null
+        #if not inside a tmux session, and if no session is started, start a new session
+        if test -z "$TMUX" ; and test -z $TERMINAL_CONTEXT
+            tmux -2 attach; or tmux -2 new-session
+        end
+    end
+end
+
+start_tmux
