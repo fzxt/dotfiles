@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'wincent/command-t'
 
 Plug 'flazz/vim-colorschemes'
+Plug 'airblade/vim-gitgutter'
 
 " Typescript
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
