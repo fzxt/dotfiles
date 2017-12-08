@@ -1,0 +1,22 @@
+#  ▄▄ • ▪  ▄▄▄▄▄    
+# ▐█ ▀ ▪██ •██      
+# ▄█ ▀█▄▐█· ▐█.▪    
+# ▐█▄▪▐█▐█▌ ▐█▌·    
+# ·▀▀▀▀ ▀▀▀ ▀▀▀  
+[user]
+	email = fahadahmad41@hotmail.com
+	name = fzxt
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[core]
+	editor = nvim
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[hub]
+	protocol = https
