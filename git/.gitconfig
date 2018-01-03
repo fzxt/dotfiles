@@ -4,7 +4,7 @@
 # ▐█▄▪▐█▐█▌ ▐█▌·    
 # ·▀▀▀▀ ▀▀▀ ▀▀▀  
 [user]
-	email = fahadahmad41@hotmail.com
+	email = fahadfzxt@gmail.com
 	name = fzxt
 [filter "lfs"]
 	clean = git-lfs clean %f
