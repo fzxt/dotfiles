@@ -112,7 +112,7 @@ endif
 set clipboard=unnamedplus
 
 set background=dark
-colorscheme fa256
+colorscheme gooey
 set nowrap
 
 set nobackup
