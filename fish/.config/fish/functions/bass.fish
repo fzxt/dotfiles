@@ -1,1 +1,0 @@
-/Users/fzxt/.config/fisherman/bass/functions/bass.fish
