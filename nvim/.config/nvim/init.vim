@@ -6,7 +6,7 @@ call plug#begin('~/.vim/plugged')
 
 " Command T for fast fuzzy file finding
 Plug 'wincent/command-t'
-
+Plug 'scrooloose/nerdtree'
 Plug 'flazz/vim-colorschemes'
 Plug 'airblade/vim-gitgutter'
 
@@ -86,7 +86,7 @@ syntax on
 set expandtab
 filetype plugin indent on
 set termguicolors
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=2 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set smarttab
 set incsearch
