@@ -1,11 +1,13 @@
 alias tmux "export TERM=xterm-256color; command tmux -2"
 alias vim "nvim"
-alias vi "nvim"
 alias git "hub"
 
 # Colorize terminal
-alias ls='ls -G'
 alias ll='ls -lG'
+
+alias NVIM_RC='nvim ~/.config/nvim/init.vim'
+alias ds_store='find . -name ".DS_Store" -delete'
+
 export GOPATH="/Users/fzxt/Code/Go/"
 export GREP_OPTIONS="--color"
 # for rust
@@ -24,4 +26,4 @@ function start_tmux
     end
 end
 
-start_tmux
+# start_tmux
