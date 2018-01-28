@@ -19,6 +19,8 @@ Plug 'Quramy/tsuquyomi'
 Plug 'zchee/deoplete-clang'
 
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-commentary'
+Plug 'w0rp/ale'
 Plug 'machakann/vim-sandwich'
 Plug 'Valloric/YouCompleteMe'
 call plug#end()
@@ -35,6 +37,8 @@ augroup end
 
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#enable_smart_case = 1
+
+let g:ale_linters = ['eslint']
 
 " See @https://github.com/Shougo/deoplete.nvim/issues/460
 " ctrl+c completely fucks up deoplete
@@ -112,7 +116,7 @@ endif
 set clipboard=unnamedplus
 
 set background=dark
-colorscheme fa256
+colorscheme gooey
 set nowrap
 
 set nobackup
