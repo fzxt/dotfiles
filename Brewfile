@@ -4,6 +4,7 @@ tap 'caskroom/drivers'
 tap 'caskroom/versions'
 tap 'homebrew/services'
 
+brew 'fish'
 brew 'cask'
 brew 'node'
 brew 'python3'
