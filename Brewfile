@@ -11,7 +11,7 @@ brew 'python3'
 brew 'hub'
 brew 'yarn'
 
-cask 'visual-studio-code'
+cask 'visual-studio-code-insiders'
 cask 'spotify'
 cask 'iterm2'
 
