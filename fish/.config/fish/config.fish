@@ -1,11 +1,14 @@
 alias tmux "export TERM=xterm-256color; command tmux -2"
 alias vim "nvim"
 alias git "hub"
+alias code="code-insiders"
 
 # Colorize terminal
 alias ll='ls -lG'
 
 alias NVIM_RC='nvim ~/.config/nvim/init.vim'
+alias FISH_RC='nvim ~/.config/fish/config.fish'
+
 alias ds_store='find . -name ".DS_Store" -delete'
 
 export GOPATH="/Users/fzxt/Code/Go/"

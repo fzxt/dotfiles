@@ -20,7 +20,8 @@ Plug 'zchee/deoplete-clang'
 
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
-Plug 'w0rp/ale'
+Plug 'https://github.com/w0rp/ale.git'
+Plug 'https://github.com/Quramy/vim-js-pretty-template.git'
 Plug 'machakann/vim-sandwich'
 Plug 'Valloric/YouCompleteMe'
 call plug#end()
@@ -37,8 +38,9 @@ augroup end
 
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#enable_smart_case = 1
-
-let g:ale_linters = ['eslint']
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\}
 
 " See @https://github.com/Shougo/deoplete.nvim/issues/460
 " ctrl+c completely fucks up deoplete
@@ -116,7 +118,7 @@ endif
 set clipboard=unnamedplus
 
 set background=dark
-colorscheme gooey
+colorscheme zenburn
 set nowrap
 
 set nobackup
@@ -172,15 +174,6 @@ augroup vimrcEx
 
   autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:&gt;
   autocmd BufRead *.markdown  set ai formatoptions=tcroqn2 comments=n:&gt;
-
-  " Indent p tags
-  " autocmd FileType html,eruby if g:html_indent_tags !~ '\\|p\>' | let g:html_indent_tags .= '\|p\|li\|dt\|dd' | endif
-
-  " Don't syntax highlight markdown because it's often wrong
-  autocmd! FileType mkd setlocal syn=off
-  
-  " *.md is markdown
-  autocmd! BufNewFile,BufRead *.md setlocal ft=
 
   " indent slim two spaces, not four
   autocmd! FileType *.slim set sw=2 sts=2 et
