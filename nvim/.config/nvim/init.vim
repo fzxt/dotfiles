@@ -118,7 +118,7 @@ endif
 set clipboard=unnamedplus
 
 set background=dark
-colorscheme zenburn
+colorscheme fa256
 set nowrap
 
 set nobackup
