@@ -4,6 +4,7 @@ alias git "hub"
 alias code="code-insiders"
 
 # Colorize terminal
+alias ls='ls -G'
 alias ll='ls -lG'
 
 alias NVIM_RC='nvim ~/.config/nvim/init.vim'
