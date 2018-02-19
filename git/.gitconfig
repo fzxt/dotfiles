@@ -20,4 +20,9 @@
 	interactive = auto
 	status = auto
 [hub]
-	protocol = https
+  protocol = https
+[alias]
+  s = status
+  c = commit
+  ca = commit --amend
+
