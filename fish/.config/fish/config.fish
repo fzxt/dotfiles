@@ -1,11 +1,16 @@
 alias tmux "export TERM=xterm-256color; command tmux -2"
 alias vim "nvim"
 alias git "hub"
-alias code="code-insiders"
 
 # Colorize terminal
-alias ls='ls -G'
-alias ll='ls -lG'
+alias ls "ls -G"
+alias ll "ls -lG"
+
+# cd and ls
+function cd
+   builtin cd $argv
+   ls
+end
 
 alias NVIM_RC='nvim ~/.config/nvim/init.vim'
 alias FISH_RC='nvim ~/.config/fish/config.fish'
@@ -29,5 +34,8 @@ function start_tmux
         end
     end
 end
+
+set pure_symbol_prompt "\$"
+
 
 # start_tmux

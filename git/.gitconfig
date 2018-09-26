@@ -13,6 +13,7 @@
 [core]
 	editor = nvim
 	pager = diff-so-fancy | less --tabs=4 -RFX
+	ignorecase = false
 [color]
 	ui = auto
 	branch = auto

@@ -1,0 +1,1 @@
+/Users/fzxt/.config/fisherman/pyenv/functions/pyenv.fish
