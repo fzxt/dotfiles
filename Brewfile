@@ -10,6 +10,7 @@ brew 'node'
 brew 'python3'
 brew 'hub'
 brew 'yarn'
+brew 'neovim'
 
 cask 'visual-studio-code-insiders'
 cask 'spotify'
