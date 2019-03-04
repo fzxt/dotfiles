@@ -15,6 +15,10 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
 
+" Rust
+Plug 'rust-lang/rust.vim'
+Plug 'sebastianmarkow/deoplete-rust'
+
 " C++
 Plug 'zchee/deoplete-clang'
 
@@ -118,7 +122,7 @@ endif
 set clipboard=unnamedplus
 
 set background=dark
-colorscheme fa256
+colorscheme flatwhite
 set nowrap
 
 set nobackup

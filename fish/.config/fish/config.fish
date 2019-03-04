@@ -20,7 +20,7 @@ alias ds_store='find . -name ".DS_Store" -delete'
 export GOPATH="/Users/fzxt/Code/Go/"
 export GREP_OPTIONS="--color"
 # for rust
-export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH:.local/bin"
 export TERM="xterm-256color"
 
 set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
