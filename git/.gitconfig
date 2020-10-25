@@ -12,8 +12,15 @@
 	required = true
 [core]
 	editor = nvim
-	pager = diff-so-fancy | less --tabs=4 -RFX
-	ignorecase = false
+	pager = delta
+  ignorecase = false
+[delta]
+  plus-color = "#012800"
+  minus-color = "#340001"
+  syntax-theme = Monokai Extended
+  side-by-side = true
+[interactive]
+    diffFilter = delta --color-only
 [color]
 	ui = auto
 	branch = auto
@@ -26,4 +33,7 @@
   s = status
   c = commit
   ca = commit --amend
+  can = commit --amend --no-edit
+  p = push
+
 
